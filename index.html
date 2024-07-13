@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Abrechnung</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Abrechnungsrechner</h1>
+      <form>
+        <label for="umsatz">Umsatz</label>
+        <input type="number" id="umsatz" /><br />
+
+        <label for="karte">Karte</label>
+        <input type="number" id="karte" /><br />
+
+        <label for="gutschein">Gutschein</label>
+        <input type="number" id="gutschein" /><br />
+
+        <!-- <label for="bar">Bar</label>
+        <input type="number" id="bar" /><br /> -->
+
+        <p id="bar">Bargeld: 0</p>
+
+        <p id="tip">Tip:</p>
+
+        <p id="tip-kueche">Küche: 0</p>
+
+        <p id="tip-bar">Bar: 0</p>
+
+        <button id="calc" type="button">Berechnen</button>
+      </form>
+    </div>
+  </body>
+</html>

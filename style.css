@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  /* background-color: #0f0f0f; */
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+  height: 50%;
+  padding: 20px 40px;
+  /* background-color: #fff; */
+  /* border-radius: 7px; */
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  /* font-weight: bold; */
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+input {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#tip {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#tip-kueche,
+#tip-bar {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
